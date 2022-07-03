@@ -1,0 +1,4 @@
+(executable
+ (public_name boolean)
+ (name main)
+ (libraries boolean))
