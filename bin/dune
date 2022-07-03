@@ -1,4 +1,8 @@
 (executable
  (public_name boolean)
  (name main)
- (libraries boolean))
+ (libraries boolean)) 
+
+(env
+ (dev
+ (flags (:standard -warn-error -A))))
